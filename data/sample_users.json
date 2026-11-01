@@ -1,0 +1,54 @@
+{
+  "demo@profilecraft.dev": {
+    "password": "demo1234",
+    "profile": {
+      "name": "Jordan Rivera",
+      "email": "jordan.rivera@example.com",
+      "phone": "+1 555 010 2030",
+      "location": "Raleigh, NC",
+      "summary": "Data engineer who builds reliable batch and streaming pipelines with Python, SQL and AWS.",
+      "education": [
+        {"school": "State University", "degree": "MS in Computer Science", "year": "2025"}
+      ],
+      "experience": [
+        {"company": "Acme Analytics", "role": "Data Engineer", "duration": "2024 - Present",
+         "description": "- Built Airflow DAGs loading 40M rows/day into Snowflake\n- Cut warehouse cost 30% by partitioning & clustering"},
+        {"company": "Northwind", "role": "Data Analyst", "duration": "2022 - 2024",
+         "description": "- Automated weekly KPI reporting with Python and SQL"}
+      ],
+      "certifications": [{"name": "AWS Certified Data Engineer - Associate"}, {"name": "dbt Fundamentals"}]
+    }
+  },
+  "priya@example.com": {
+    "password": "s3cure-pass",
+    "profile": {
+      "name": "Priya Shah",
+      "email": "priya.shah@example.com",
+      "phone": "555-020-3040",
+      "location": "Austin, TX",
+      "summary": "",
+      "education": [{"school": "Tech Institute", "degree": "BS in Information Systems", "year": "Class of 2023"}],
+      "experience": [{"company": "Globex", "role": "ETL Developer", "duration": "2023 - 2025", "description": "SSIS to Python migration"}],
+      "certifications": [{"name": "AWS Certified Data Engineer - Associate"}, {"name": ""}]
+    }
+  },
+  "sam@example.com": {
+    "password": "hunter22",
+    "profile": {"name": "Sam Lee", "email": "", "phone": "", "location": "", "summary": "",
+                "education": [], "experience": [], "certifications": []}
+  },
+  "bad-email@example.com": {
+    "password": "x1y2z3",
+    "profile": {"name": "Broken Record", "email": "not-an-email", "education": [], "experience": [], "certifications": []}
+  },
+  "bad-dates@example.com": {
+    "password": "x1y2z3",
+    "profile": {
+      "name": "Time Traveler", "email": "tt@example.com",
+      "experience": [{"company": "Initech", "role": "Engineer", "duration": "2024 - 2021"}]
+    }
+  },
+  "no-password@example.com": {
+    "profile": {"name": "Missing Password"}
+  }
+}

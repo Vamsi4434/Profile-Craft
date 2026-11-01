@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local data: never commit real user records or databases
+*.db
+*.sqlite
+*.sqlite3
+users.json
+data/rejects.jsonl
+
+# Generated output
+*.pdf
+!docs/**/*.pdf
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+.env
